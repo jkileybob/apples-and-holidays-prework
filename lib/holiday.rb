@@ -70,10 +70,10 @@ def all_holidays_with_bbq(holiday_hash)
     data.collect do |holiday, supplies|
       supplies.collect do |supply|
         if supply == "BBQ"
-          array << holiday
+          Array << holiday
         end
       end
     end
   end
-  return array      
+  return Array      
 end
